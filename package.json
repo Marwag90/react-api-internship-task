@@ -29,6 +29,7 @@
     "recharts": "^1.8.5",
     "sass": "^1.80.3"
   },
+  "homepage": "https://github.com/Marwag90/react-api-internship-task",
   "scripts": {
     "scss": "npx sass src/sass/styles.scss:src/styles/styles.css",
     "watch-scss": "npx sass --watch src/sass/styles.scss:src/styles/styles.css",
