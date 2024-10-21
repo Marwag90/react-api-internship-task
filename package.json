@@ -43,7 +43,9 @@
     "build-react": "react-app-rewired build",
     "build": "npm-run-all -s build-css build-react",
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!lodash-es)/\" --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -70,6 +72,7 @@
     "@types/react-dom": "^18.3.1",
     "@types/recharts": "^1.8.29",
     "autoprefixer": "^9.8.8",
+    "gh-pages": "^6.2.0",
     "postcss-cli": "^7.1.2",
     "react-app-rewired": "^2.2.1",
     "react-test-renderer": "^17.0.2",
