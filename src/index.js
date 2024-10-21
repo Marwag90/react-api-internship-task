@@ -29,7 +29,7 @@ lloHe   Hello  lloHelloHell HelloHelloH  loHelloHell     oHello
 
 %c Interested in the code behind this application? Well you're in luck - this application is open source! 
 Come say hi, tell me what you're debugging, or if interested in the codebase, 
-check out the repo on GitHub - https://github.com/iamsainikhil/weather-react   `,
+check out the repo on GitHub - https://github.com/Marwag90   `,
   'font-size: 1vmin',
   'margin-bottom: 5px; line-height: 1.5'
 )

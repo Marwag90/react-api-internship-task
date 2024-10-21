@@ -22,16 +22,6 @@ const FooterComponent = () => {
       }}>
       <div
         className={`flex flex-col text-center sm:flex sm:flex-row justify-around p-5 text-${colorTheme} text-sm`}>
-        {/* <p className='my-2 sm:my-0 w-full sm:w-1/3'>
-          <a
-            href='https://github.com/iamsainikhil/weather-react/'
-            target='_blank'
-            rel='noreferrer noopener'
-            className={`link z-0 hover:text-${theme}`}
-            onClick={() => emitGA('Visit GitHub', 'GitHub Link')}>
-            GitHub
-          </a>
-        </p> */}
         <p className='flex flex-no-wrap justify-center items-center my-2 sm:my-0 w-full sm:w-1/2'>
           Made with&nbsp;
           <span
@@ -60,11 +50,11 @@ const FooterComponent = () => {
         &copy; {moment().format('YYYY')}{' '}
         <a
           className={`link z-0 hover:text-${theme}`}
-          href='https://iamsainikhil.github.io'
+          href='https://github.com/Marwag90'
           target='_blank'
           rel='noreferrer noopener'
           onClick={() => emitGA('Visit Portfolio', 'Portfolio Link')}>
-          Sai Nikhil
+          Marwa
         </a>
       </p>
     </div>

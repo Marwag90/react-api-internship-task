@@ -20,7 +20,7 @@ const HeaderComponent = () => {
           />
         </Link> */}
         <a
-          href='https://github.com/iamsainikhil/weather-react'
+          href='https://github.com/Marwag90'
           className='github-corner'
           aria-label='View source on GitHub'
           target='_blank'

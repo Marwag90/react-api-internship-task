@@ -8,7 +8,7 @@ export default function handler(req, res) {
       <title>Weather React API</title>
     </head>
     <body>
-      <h1>Welcome to <a href="https://iamsainikhil.github.io/weather-react" target="_blank" rel="noreferrer noopener">Weather React</a> application's proxy server</h1>
+      <h1>Welcome to <a href="https://github.com/Marwag90" target="_blank" rel="noreferrer noopener">Weather React</a> application's proxy server</h1>
     </body>
     </html>
   `)
